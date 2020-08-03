@@ -1,6 +1,6 @@
 window.dom = {
     create(string) {
-        // 新语法template用于创建一个不需要现实在html页面上的标签 
+        // 新语法template用于创建一个不需要显示在html页面上的标签 
         let container = document.createElement("template");
         container.innerHTML = string.trim();
         return container.content.firstChild;
